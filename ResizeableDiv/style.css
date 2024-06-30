@@ -1,0 +1,83 @@
+body {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.platno {
+    border: black solid 2px;
+    width: 600px;
+    height: 500px;
+    position: relative;
+}
+
+.desk {
+    background: hotpink;
+    border: black solid 1px;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.resize {
+    border: white solid 0.5px;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    cursor: se-resize;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.cd {
+    width: 100px;
+    height: 70px;
+    border: black solid 1px;
+}
+
+.container, .previewContainer{
+    width: 900px;
+    height: 900px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: solid grey 1px;
+}
+
+.buttony{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+main{
+    display: flex;
+    gap: 10px;
+}
+
+.exportCont{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hide{
+    display: none;
+}
+
+#planek{
+    width: auto;
+    height: auto;
+}
